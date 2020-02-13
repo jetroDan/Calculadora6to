@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity implements Classmtd {
             }
         });
 
+        /*
         mod.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -94,7 +95,7 @@ public class MainActivity extends AppCompatActivity implements Classmtd {
             public void onClick(View v) {
                 resultado.setText(String.valueOf(Notmtd()));
             }
-        });
+        });*/
 
     }
 
@@ -133,6 +134,7 @@ public class MainActivity extends AppCompatActivity implements Classmtd {
         return total;
 
     }
+    /*
     public float Modulomtd(){
         float total = 0;
         float num1 = Float.parseFloat(result1.getText().toString());
@@ -164,7 +166,7 @@ public class MainActivity extends AppCompatActivity implements Classmtd {
         total = num1 / num2;
         return total;
 
-    }
+    }*/
 }
 
 
